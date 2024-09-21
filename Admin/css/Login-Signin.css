@@ -3,12 +3,14 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: rgb(125, 125, 125);
+    background: url(../IMG/Background-plane.jpg) no-repeat;
+    background-size: cover;
+    /* background: hsl(0, 2%, 75%); */
 }
 
 .wrapper{
     width: 420px;
-    background: rgb(27, 146, 102);
+    background: hsl(0, 2%, 26%);
     color: #fff;
     border-radius: 10px;
     padding: 30px 40px;
