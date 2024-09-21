@@ -1,0 +1,5 @@
+body{
+    background: hsl(0, 2%, 75%);
+    background-image: url(../Img/Background-img-of-indexpage.jpg);
+    background-size: cover;
+}

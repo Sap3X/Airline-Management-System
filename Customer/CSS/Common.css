@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins",sans-serif;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(0, 2%, 26%);
+    height: 80px;
+}
+
+.nav-left-logo img{
+    cursor: pointer;
+}
+
+.nav-middle-option ul{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.nav-middle-option ul li{
+    list-style: none;
+}
+
+.nav-middle-option ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-middle-option ul li a:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.nav-right-account-dropdown{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-right-account-dropdown img{
+    cursor: pointer;
+}
+
+.nav-right-account-dropdown .dropdown-option-for-account{
+    margin-top: 150px;
+}
+
+.nav-right-account-dropdown .dropdown-option-for-account a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.nav-right-account-dropdown .dropdown-option-for-account{
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+}
+
+.nav-right-account-dropdown:hover .dropdown-option-for-account{
+    display: block;
+}
+
+.nav-right-account-dropdown a:hover{
+    background-color: hsl(0, 0%, 90%);
+}
