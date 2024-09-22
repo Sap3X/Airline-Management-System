@@ -1,8 +1,9 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background: hsl(0, 2%, 75%); */
+    color: #fff;
 }
 
 .wrapper{
@@ -10,12 +11,12 @@ body {
     background: transparent;
     border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(3px);
-    color: #fff;
     border-radius: 10px;
     padding: 30px 40px;
+    background-color: hsl(0, 2%, 26%);
 }
 
-.wrapper h1{
+h1{
     font-size: 36px;
     text-align: center;
 }
