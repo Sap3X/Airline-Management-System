@@ -17,4 +17,10 @@
   <li>Xampp</li>
 </ol><br>
 
-<h2>Future Updates</h2><br>
+<h2>Future Updates</h2>
+<ol>
+  <li>My plan is to develop 2 websites, one for admin who will operate the airline and another for customer for ticket purchase.</li>
+  <li>Admin not only operates on flight management, it also operates on employees and have the proper details on which work an employee is assigned for.</li>
+  <li>Admin have a full control over the data an customer which is sends for purchasing tickets which means they can over view the details.</li>
+  <li>Payment plan will be implemented that is all credit cards and debit cards will be accepted.</li>
+</ol>
