@@ -3,7 +3,7 @@
 <h1>Intension of the project </h1>
   This project is developed for my final year. I developed it all alone with some github projects, youtube videos and some websites. This is my V sem project as BCA Student. <br>
 
-<h2>What is Airline Management System?</h2><br>
+<h2>What is Airline Management System?</h2>
   This project specially focuses on the ticket counter of the airline and manages the ticket with the plane's arrival and take off.<br>
 
 <h2>Using to built</h2>
