@@ -7,7 +7,7 @@
         {
 			if($password=="admin")
             {
-				echo "<script>window.location='../html/Option.html'</script>";
+				echo "<script>window.location='../html/Dashboard.html'</script>";
 			}
 			else
             {
