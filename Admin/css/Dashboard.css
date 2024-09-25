@@ -32,6 +32,12 @@ body{
     text-decoration: none;
     color: #fff;
 }
+
+.header .right a{
+    text-decoration: none;
+    color: #fff;
+}
+
 .sidebar{
     background-color: hsl(0, 2%, 26%);
     grid-column: 1/2;
@@ -59,4 +65,15 @@ body{
 .main{
     grid-column: 2/3;
     grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .title h1{
+    font-size: 30px;
+}
+
+.main .table{
+    font-size: 18px;
 }
