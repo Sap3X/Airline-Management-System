@@ -7,6 +7,7 @@
     <!-- <link rel="stylesheet" href="../css/bootstrap.css"> -->
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/Dashboard.css">
+    <link rel="stylesheet" href="../css/flightadd.css">
 </head>
 <body>
     <header class="header">
@@ -34,63 +35,21 @@
         <div class="title">
             <h1>FLIGHT DETAILS</h1>
         </div>
-        <form action="postadmindetails.php" method="post">
-        <div class="b">  
-            <table class='a' cellspacing="20">
+        <form action="../php/flightadd.php" method="post">
+        <div class="table-for-add">
+            <table>
                 <tr>
                     <td>Flight Code</td>
-                    <td><input type="text"  name="flightcode" required></td>
-                    <td>Airlines ID</td>
-                    <td><input type="text"  name="airlinesid" required></td>
-                    <td>Country</td>
-                    <td><input type="text"  name="country" required></td>
-                    <td>State</td>
-                    <td><input type="text" name="state" required></td>
-                </tr>
-                <tr>
-                    <td>Airport Name</td>
-                    <td><input type="text"  name="airportname" required></td>
-                    <td>Source</td>
-                    <td><input type="text"  name="source" required></td>
-                    <td>Destination</td>
-                    <td><input type="text"  name="destination" required></td>
-                </tr>
-                <tr>
-                    <td>Departure</td>
-                    <td><input type="text" name="departure" required></td>
-                    <td>Arrival</td>
-                    <td><input type="text" name="arrival" required></td>
-                    <td>Duration</td>
-                    <td><input type="text"  name="duration" required></td>
-                    <td>Date</td>
-                    <td><input type="Date" name="date" required></td>
-                </tr>
-                <tr><td><h3>PRICE</h3></td></tr>
-                <tr>
-                    <td>Economy Class</td>
-                    <td>
-                        <input type="number" name="economyclass" required>
-                    </td>
-                    <td>Business Class</td>
-                    <td>
-                        <input type="number" name="businessclass" required>
-                    </td>
-                    <td>For Students</td>
-                    <td>
-                        <input type="number" name="students" required>
-                    </td>
-                    <td>For Differently Abled</td>
-                    <td>
-                        <input type="number" name="diff" required>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input type="Submit" value="Submit" name="submit">
-                    </td>
+				<td><input type="text"  name="flightcode" required></td>
+				<td>Airlines ID</td>
+				<td><input type="text"  name="airlinesid" required></td>
+				<td>Country</td>
+				<td><input type="text"  name="country" required></td>
+				<td>State</td>
+				<td><input type="text" name="state" required></td>
                 </tr>
             </table>
-        </div>  
+        </div>
     </main>
 </body>
 </html>
