@@ -1,14 +1,9 @@
 .title h1{
     color: black;
-    font-size: 40px;
 }
 
-form{
-    top: 20%;
-    border: 1px solid #fff;
-    text-decoration: none;
-    transition: 0.6s ease;
-    font-size: 25px;
+table.a{
+    color: #fff;
 }
 
 input[type=submit]{
@@ -55,16 +50,9 @@ input[type=date], select {
   box-sizing: border-box;
 }
 
-form{
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.select-list {
+#country {
     position: relative;
     display: inline-block;
-    width: 100%;
-    margin-bottom: 55px;
 }
  
 input, select, textarea {
@@ -75,33 +63,15 @@ input, select, textarea {
     -o-appearance: unset !important;
     -ms-appearance: unset !important; 
 }
-  
-input:focus, select:focus, textarea:focus {
-    outline: none;
-    box-shadow: none !important;
-    -moz-box-shadow: none !important;
-    -webkit-box-shadow: none !important;
-    -o-box-shadow: none !important;
-    -ms-box-shadow: none !important; 
-}
- 
+
 input, select {
-    width: 100%;
     display: block;
     border: none;
     border-bottom: 2px solid #ebebeb;
-    padding: 5px 0;
     color: #222;
-    margin-bottom: 31px;
-    font-family: 'Roboto Slab'; 
 }
  
 input:focus, select:focus {
     color: #222;
     border-bottom: 2px solid #4966b1; 
-}
- 
-ul li:not(.init):hover, ul li.selected:not(.init) {
-    background: #4966b1;
-    color: #fff; 
 }
